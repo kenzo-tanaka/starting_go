@@ -1,0 +1,5 @@
+- importでテストいライブラリをい
+- テストファイルは _test.go とする
+- テスト用の関数はTestで始める
+- go test ./animals
+- go test -v ./animals で詳細表示
