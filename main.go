@@ -2,9 +2,11 @@ package main
 
 import (
 	"fmt"
-	"github.com/kenzo-tanaka/starting_go/animails"
+
+	animals "github.com/kenzo-tanaka/starting_go/animails"
 )
 
 func main() {
+	fmt.Println(AppName())
 	fmt.Println(animals.ElephantFeed())
 }
